@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  box-sizing: content-box;
+  margin: 0px;
+  padding: 0px;
+  background-color: #c06c84;
+}
+
+.animate-right {
+  position: relative;
+  animation: animateright 0.8s;
+}
+@keyframes animateright {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 500;
+    opacity: 1;
+  }
+}

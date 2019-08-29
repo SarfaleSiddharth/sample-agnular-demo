@@ -7,7 +7,7 @@ import { Component } from "@angular/core";
 })
 export class AppComponent {
   title = "upwork-demo";
-  isVisible = true;
+  isVisible = false;
   toggleStatus() {
     this.isVisible = !this.isVisible;
   }
